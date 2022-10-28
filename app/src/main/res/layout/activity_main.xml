@@ -25,9 +25,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:paddingVertical="10dp"
-        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
         app:menu="@menu/menus"
+        android:background="@drawable/bottom_nav_style"
+        app:itemIconTint="#ddd"
+        app:itemTextColor="@color/white"
         android:id="@+id/bottomNav"/>
 
 
